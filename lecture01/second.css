@@ -1,0 +1,21 @@
+p{
+
+    color: rgb(231, 145, 15);
+}
+#heading2
+{
+    color: red;
+    background-color: aquamarine;
+}
+.class1{
+    color: rgba(240, 69, 7, 0.959);
+}
+p.class1{
+    color: rgb(122, 8, 79);
+}
+/* signup form 
+   login form
+   using legend and feild set
+
+
+*/

@@ -1,0 +1,35 @@
+/*
+ruleset
+------------
+selector
+
+------declaration block------
+{
+    property: value;
+}
+-----------declaration block------
+
+-------------
+
+
+*/
+li{
+
+color: blue;
+background-color: blueviolet;
+
+
+
+}
+body
+{
+    background-color: rgb(179, 6, 78);
+    
+}
+p
+{
+    color: blueviolet;
+}
+.class1{
+    color: orangered;
+}
