@@ -1,0 +1,33 @@
+.outer-div p{
+    color: blue;
+}
+.outer-div> p{
+    color: brown;
+    background-color: blueviolet;
+}
+/*button.text-danger*/
+/* descedant selector*/
+/*
+*/
+/*general sibling slector*/
+
+/*adjacent sibling selector*/
+#div1+p{
+    color: rgb(10, 141, 21);
+}
+
+/* desendant alll children
+ child slector imidiate selector
+ general sibling ~
+ adjacent +
+
+*/
+#div3
+{
+  border-style: hidden;
+  border-width: 10px;
+  border-color: aquamarine;
+  border-radius: 4px;
+  pad
+
+}
