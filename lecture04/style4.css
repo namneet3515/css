@@ -1,0 +1,85 @@
+ .bg{
+    width: 700px;
+    height: 400px;
+
+    border: 2px solid red;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    color: rgb(2, 0, 0);
+   
+    background-size: contain;
+    background-size: cover;
+    background-position: center center;
+    
+}
+/*
+ background-repeat: no-repeat;  if not added image  would be  repeated multiple timess
+
+
+
+
+background-size: contain;  yeh jitni height hai utna bada kr dega image ko
+background-size: cover;   yeh aspect ratio ke hisaab se image cut krkr  adjust krdega full ACTUAL width height mein
+background-position: center center;   this helps to adjust picture according to our need for eg centre , top left etc....
+
+**POSITIONS**
+STATIC would give the default position to the container 
+RELATIVE apni jagah se change krega 
+
+
+
+
+absolute ko apni jagah nahi  milti 
+
+absolute apply hone ke liye nearest ancestor(container) parent wla RElative hona chahiye
+i.e relative PARENT ke container se move hogaaaa....!
+*/
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(5, 5, 5);
+
+}
+.box-1{
+
+    position: static;
+}
+
+.box-2
+{
+  position:relative; 
+  left : 300px;
+  top : 300px
+  
+
+
+}
+.container/*isko relative dena compulsory hai!!!!for absolute*/
+{
+    position: relative;
+    border: 2px solid red;
+
+
+
+}
+.box-3{
+    position: absolute;
+    top: 600px;
+    left: 300px;
+}
+
+
+/*
+postion fixed mein humesha se  udhr he rahega 
+
+
+*/
+.box-4
+{
+    /* sTICKyy mein croll hote hote it will take its space flow break nahi hogaa */
+    position: sticky;
+    top: 100px;
+}
+

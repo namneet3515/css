@@ -1,0 +1,76 @@
+body{
+margin: 111110;
+padding: 10;
+font-family: 'Courier New', Courier, monospace;
+
+}
+.outer{
+    border: 4px solid red;
+    width: 500px;
+}
+
+.inner{
+    border: 7px solid violet;
+    width: 60%;
+
+
+}
+.para{
+    border: 2px solid rgb(11, 187, 11);
+    width: 70%;
+
+}
+.viewport{
+
+    border: 2px solid rgb(4, 32, 124);
+    width: 500px;
+    height: 60vw;
+
+}
+/*reset style for all elements beacuase we dont want 
+to calculate the width explicity */
+
+*{
+   /*inclusive of borders*/
+    box-sizing: border-box;
+    /*content-box gives width to the content box of model  box
+    i.e exclusive of borders */
+
+}
+#div1{
+    background-color: rgb(13, 133, 113);
+    color: aliceblue;
+    width: 50%;
+    
+    }
+
+#div2{
+background-color: rgb(133, 13, 13);
+color: aliceblue;
+width: 50%;
+
+}
+div{
+
+/*jitni jagha chahiye utni jagah lega but wont give attention to width height padding margin*/
+display:inline ;
+vertical-align: top;
+
+/*---------------------*/
+/*inline-block comes between block and inline takes width height and padding into consideration*/
+/*display in line block*/
+/*-----------*/
+/*display block means pooora width loega*/
+/*display:block;*/
+}
+
+
+/*we give font family stack because if first is not
+found , it goes to the second and then third and so on...*/
+
+/*
+block poori jagah lelega
+inline
+*/
+/*in case of inline block, dont leave spaces or enter between two divs, else it would give SpACE a pixel too*/
+ 
