@@ -1,0 +1,43 @@
+.parent{
+    border: 2px solid black;
+    display: flex;
+    width: 300px;
+    /*flex-wrap : wrap;*/
+    /* flex-flow: row-reverse wrap; */
+
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    border: 2px solid  rgb(214, 3, 3);
+}
+
+
+/* kuch nai diya h toh  by default direct row  */
+/* justify content works on MAIN AXIS */
+/* align items works on CROSS AXIS */
+/*flex flow m zruri nai h ke dono provide kare direction and wrap */
+/* direction has two pparts main axis abd  cross axis  */
+/* row  
+main  left to right  
+cross up to down   */
+
+/*  reverse row  
+main  right ot left 
+cross up to down   */
+
+/* column 
+
+main up to down
+cross left to right
+*/
+
+/* reverse column 
+
+main down to up
+cross left to right
+*/
+
+
+/* align items centre */

@@ -44,58 +44,32 @@ body{
     border-bottom: 2px solid #ffffff;
 }
 
+/*container starts*/
+.container{
+    margin: auto;
+    width: 60%;
+    margin-top: 130px;
+}
 
-.content{
-     background: rgba(225, 225, 225, 0.73);
-     width: 1300px;
-    height: 600px;
-    border: 2px solid rgb(66, 36, 65);
+.container> .tile{
+    background-color: #f5ebd3;
+    padding: 20px;
+    border-radius:10px;
+    /*photo ko thoda right krna tha*/
+    padding-right: 0px;
+}
+
+.container >h2{
+    text-transform: capitalize;
+}
+
+.left,.right{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.right > img{
+    width: 100%;
     position: relative;
-
-    left : 250px;
-   top : 150px;
-   border-radius: 4%;
-   background-image: url(bg\ image\ spotify.jpeg);
-   background-repeat: no-repeat;
-   opacity : 0.5;
-   background-size: cover;
-   background-position:center center ;
-   
-   
-   
-     
-}
-
-.content p{
-    word-wrap: break-word;
-
-  -ms-text-size-adjust: initial;
-    text-align: left;
-    text-size-adjust: ;
-}
-
-.imgBlog
-{
-    float: right;
-  
-  width: 400px;
-  height: 400px;
-  border: 2px solid rgb(255, 255, 255);
-  border-radius: 4%;
-  opacity: 0.7;
-
-}
-
-
-.heading h1{
-    color: white;
-}
-
-.logo{
-
-    position: absolute;
-   bottom: 20px;
-    left: 1835px;
-    width: 30px;
-    height: 30px;
 }

@@ -24,15 +24,15 @@ background-position: center center;   this helps to adjust picture according to 
 
 **POSITIONS**
 STATIC would give the default position to the container 
-RELATIVE apni jagah se change krega 
+RELATIVE apni jagah se change krega ..priority top and left
 
 
 
 
 absolute ko apni jagah nahi  milti 
 
-absolute apply hone ke liye nearest ancestor(container) parent wla RElative hona chahiye
-i.e relative PARENT ke container se move hogaaaa....!
+absolute apply hone ke liye nearest relative ancestor(container) parent wla RElative hona chahiye
+i.e RELATIVE PARENT ke container se move hogaaaa....!
 */
 
 
@@ -72,13 +72,13 @@ i.e relative PARENT ke container se move hogaaaa....!
 
 
 /*
-postion fixed mein humesha se  udhr he rahega 
+postion fixed mein humesha se  udhr he rahega ......screen se hundred
 
 
 */
 .box-4
 {
-    /* sTICKyy mein croll hote hote it will take its space flow break nahi hogaa */
+    /* sTICKyy mein scroll hote hote it will take its space flow break nahi hogaa */
     position: sticky;
     top: 50px;
 }
