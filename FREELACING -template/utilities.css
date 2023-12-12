@@ -1,0 +1,19 @@
+.text-success{
+    color:#28a745;
+}
+
+.text-primary{
+    color:#0284d0;
+}
+
+.text-muted{
+    color: #6c757d;
+}
+
+.btn-success{
+    background-color:#28a745;
+    color: white;
+}
+.d-flex{
+    display: flex;
+}
