@@ -1,0 +1,38 @@
+#mobile , #ltablet ,#ptablet ,#laptop{
+    display: none;
+}
+@media screen and (min-width: 992px ){
+    #laptop{
+        display: block;
+        background-color: black;
+        color: white;
+    }
+    
+}
+@media screen and (min-width: 762px ) and (max-width: 991px ) {
+    #ltablet{
+        display: block;
+        background-color: rgb(238, 10, 10);
+        color: rgb(5, 0, 0);
+    }
+    
+}
+
+@media screen and (min-width: 600px ) and (max-width: 761px ) {
+    #ptablet{
+        display: block;
+        background-color: rgb(17, 184, 17);
+        color: rgb(5, 0, 0);
+    }
+    
+}
+
+
+@media screen and  (max-width: 599px ) {
+    #mobile{
+        display: block;
+        background-color: rgb(126, 223, 16);
+        color: rgb(5, 0, 0);
+    }
+    
+}

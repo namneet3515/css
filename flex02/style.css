@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+.parent{
+     display: flex;
+     flex-direction: row;
+    width: 700px;
+ 
+    border: 2px solid black;
+
+
+}
+
+.child{
+ 
+border: 2px solid rgb(197, 20, 20);
+
+}
+
+#child2{
+    flex: 500 500 200px;
+}
+
+#child1{
+   flex: 500 300 300px;
+}
+#child3{
+  flex: 400 400 600px;
+}
+/* flexx grow jisko badahana  h uss child ko dena hota  hai */
+/* default value is 0  */
+/* default  */
+/* align content works after wrap
+  wrap krne ke baad 
+
+*/

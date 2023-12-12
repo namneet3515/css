@@ -8,11 +8,13 @@
 }
 
 .child{
-    width: 100px;
+    width: 50px;
     height: 100px;
     border: 2px solid  rgb(214, 3, 3);
 }
 
+/* FOR FLEX
+----direct parent child relationship hona chhahiyee */
 
 /* kuch nai diya h toh  by default direct row  */
 /* justify content works on MAIN AXIS */
