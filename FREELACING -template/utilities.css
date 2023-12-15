@@ -17,3 +17,10 @@
 .d-flex{
     display: flex;
 }
+.d-column{
+    flex-direction: column;
+}
+
+.bg-light{
+    background color : #f4f4f4;
+}
