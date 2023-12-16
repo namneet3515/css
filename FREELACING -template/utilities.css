@@ -22,5 +22,8 @@
 }
 
 .bg-light{
-    background color : #f4f4f4;
+    background-color: #ffffff;
+}
+#row-reverse{
+    flex-direction: row-reverse;
 }
